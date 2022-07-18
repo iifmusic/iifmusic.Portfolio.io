@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import "bootstrap/dist/css/bootstrap.min.css"
+import Navbar from './components/Navbar'
 
 export default class App extends Component {
   render() {
     return (
-      <h2>App</h2>
+      
+      <Navbar/>
     )
   }
 }
