@@ -13,7 +13,10 @@ body{
   font-family: "Roboto Condensed" sans-serif;
 }
 
-/* Navbar */
+/* Navbar ______________________*/
+nav{
+  z-index: 2;
+}
 .navbar__logo{
  width:16.25rem; 
 }
@@ -77,8 +80,14 @@ border-top:0.1875rem solid var(--primary-dark) ;
 .main-info h1{
   color: #1fdddd ;
   text-transform: uppercase;
-
 }
+@media(max-width: 768px){
+  .main-info h1{
+    font-size:1.5rem !important;
+
+  }
+}
+
 
 /* Typed______________________________________ */
 .typed{
@@ -94,11 +103,18 @@ border-top:0.1875rem solid var(--primary-dark) ;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  text-decoration: none;
 }
 
-.tsparticles-canvas-el{
+.btn-main-offer:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #f9ab00;
+  transition: .5s ease-in-out;
+}
+
+/* .tsparticles-canvas-el{
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
-}
+} */
