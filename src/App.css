@@ -119,3 +119,8 @@ border-top:0.1875rem solid var(--primary-dark) ;
   width: 100vw;
   z-index: 1;
 } */
+
+/* about Me_____________________________________________ */
+.about__head{
+  z-index: 2;
+}
