@@ -18,6 +18,12 @@ function Particle() {
     id="tsparticles"
     init={particlesInit}
     loaded={particlesLoaded}
+    style={{
+        position: 'absolute',
+        zIndex: '1',
+        padding: '0.5rem',
+        margin: '.25rem'
+      }}
     options={{
         "fullScreen": {
             "enable": true,
@@ -32,7 +38,7 @@ function Particle() {
                 }
             },
             "color": {
-                "value": "#ff0000"
+                "value": "#00ffdd"
             },
             "shape": {
                 "type": "circle"
@@ -60,7 +66,7 @@ function Particle() {
             "line_linked": {
                 "enable": true,
                 "distance": 150,
-                "color": "#ffffff",
+                "color": "#ff9d00",
                 "opacity": 0.4,
                 "width": 1
             },
