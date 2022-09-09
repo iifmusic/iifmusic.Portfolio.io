@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-$white: #fff;
+@mixin devStyle {
+  width: 25%;
+  margin: 25px;
+  padding: 15px 10px 15px 10px;
+  border: 3px solid $black;
+  background-color: $red;
+}
 
+$white: #fff;
 $orange: #f9ab00;
 $red: #ef4035;
 $black: #000000;
@@ -14,12 +21,31 @@ body{
   z-index: 1;
 }
 
-.languages{
-  padding: 40%;
-  margin: 0 auto;
+.languages__container{
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // align-content: center;
+  // flex-direction: row;
+  background-color: #1fdddd;
+    img{
+      width: 65px;
+      height: 65px;
+    }
+
+  .front__end{
+   @include devStyle()
+
+  }
+  .styling{
+   @include devStyle()
+  }
+  .back__end{
+  @include devStyle()
+  }
+  .holder{
+    @include devStyle()
+  }
 }
 
 
