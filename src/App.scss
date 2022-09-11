@@ -5,6 +5,7 @@ $white: #fff;
 $orange: #f9ab00;
 $red: #ef4035;
 $black: #000000;
+$tester: #1dff00;
 body{
   font-family: "Roboto Condensed" sans-serif;
 }
@@ -131,6 +132,15 @@ border-top:0.1875rem solid $black ;
 } */
 
 /**about Me_____________________________________________ */
-.about__head{
+.about__me{
   z-index: 2;
+
+    h1{
+      text-align: center;
+    }
+    p{
+      padding: 20px;
+      margin: 10px 65px 10px 65px;
+      background: $tester;
+    }
 }
