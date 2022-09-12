@@ -14,7 +14,7 @@ function App() {
     return (
       <>
         <Particle />    
-        <Navbar/>
+        <Navbar />
         <Header />
       <div className='second__area'>
         <Zoom>
