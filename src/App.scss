@@ -5,6 +5,7 @@ $orange: #f9ab00;
 $red: #ef4035;
 $black: #000000;
 $tester: #1dff00;
+$purple: #4214ad;
 
 // ** functions______________________________________
 @mixin flexCenter {
@@ -139,8 +140,8 @@ border-top:0.1875rem solid $black ;
 } */
 
 /**about Me_____________________________________________ */
-.about__me {
-  z-index: 2;
+#about__me {
+  z-index: 2;  
 
     h1 {
       text-align: center;
@@ -149,6 +150,14 @@ border-top:0.1875rem solid $black ;
       padding: 20px;
       margin: 10px 65px 10px 65px;
       background: $tester;
+      text-align: left;
+      border: 1px solid $black;
+      border-radius: 25px;
+        a {
+          text-decoration: none;
+          color: $purple;
+        }
+
         .about__img {
           @include flexCenter();
             img {
