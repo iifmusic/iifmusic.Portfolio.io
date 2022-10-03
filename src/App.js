@@ -17,9 +17,9 @@ function App() {
         <Navbar/>
         <Header />
       <div className='second__area'>
-        <Zoom>
+      
           <AboutMe />
-        </Zoom>
+        
         <Languages />
       </div>
       

@@ -1,15 +1,30 @@
 import React from 'react'
-
+import image from '/Users/iif/Code/Portfolio/src/assets/drink.jpeg'
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+import { useEffect, useState } from 'react';
 export const AboutMe = () => {
-  return (
-    <>
-        <h1 className='about__head'>AboutMe</h1>
 
+
+
+  return (
+    <div id='about__me'>
+      <Zoom>
+        <h1>AboutMe</h1>
+      </Zoom>
+      <Fade>
         <p>
-        What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        
+        Who am I? 
+        <br/>
+        Hi, I am Ivan Ortega. I am a self taught, DIY(do it yourself) enthusiast with a passion for music, code, and everything in between. I have studied many kinds of languages for code and I am always asking for a challenge. I thrive in a fast workspace and do so with the least amount of stress and the greatest amount of enthusiasm. Aside from my coding experience I have worked in the hospitality industry for 11+ years, so I am quite astonishing dealing with ordeals down to the smallest dilemmas. I as well produce my own music. I have released 3+ songs on all the music platforms and am working on many more in the meantime. Having learned and self taught most of these skills, I hope to apply both code and music in all my projects to achieve something unique and stylish. You can checkout my <a href='#'>Github</a> or my <a href='#'>music</a>.
+            
+              <div className='about__img'>
+              <img src={ image } />
+              </div>
+            
+
         </p>
-    </>
+        </Fade>
+    </div>
   )
 }
