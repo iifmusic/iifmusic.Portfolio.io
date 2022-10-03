@@ -4,6 +4,7 @@ $white: #fff;
 $orange: #f9ab00;
 $red: #ef4035;
 $black: #000000;
+$turquoise: #1fdddd;
 $tester: #1dff00;
 $purple: #4214ad;
 
@@ -16,6 +17,7 @@ $purple: #4214ad;
 
 body {
   font-family: "Roboto Condensed" sans-serif;
+  background: $black;
 }
 /* After header__________________________________*/
 
@@ -35,6 +37,8 @@ body {
 /** Navbar _________________________________________*/
 nav {
   z-index: 1;
+  background: $black;
+
 }
 .navbar__logo {
  width:16.25rem; 
@@ -46,7 +50,6 @@ nav a.nav-link {
   font-size: .8rem;
   letter-spacing:0.0375rem;
   cursor:pointer;
-
 }
 
 nav ul li {
@@ -56,8 +59,12 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color:$white !important ;
-border-top:0.1875rem solid $black ;
+  color:$white ;
+border-top:0.1875rem solid $black;
+background: $black;
+  &:hover{
+    color: $turquoise;
+  }
 }
 
 .navbar-brand {
@@ -67,11 +74,11 @@ border-top:0.1875rem solid $black ;
 }
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
-  border-top: 0.1875rem solid $orange;  
+  border-top: 2px solid $orange;  
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid $orange; 
+  border-top: 2px solid $orange; 
 }
 /**Picture________________________________________________ */
 .header-wraper  {
@@ -145,6 +152,7 @@ border-top:0.1875rem solid $black ;
 
     h1 {
       text-align: center;
+      color: $white;
     }
     p {
       padding: 20px;
