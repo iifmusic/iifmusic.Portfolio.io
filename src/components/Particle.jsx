@@ -26,12 +26,12 @@ function Particle() {
       }}
     options={{
         "fullScreen": {
-            "enable": true,
+            "enable": false,
             "zIndex": 1
         },
         "particles": {
             "number": {
-                "value": 80,
+                "value": 90,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -54,7 +54,7 @@ function Particle() {
                 }
             },
             "size": {
-                "value": 5,
+                "value": 4,
                 "random": true,
                 "anim": {
                     "enable": true,
@@ -86,13 +86,13 @@ function Particle() {
             "twinkle": {
                 "particles": {
                     "enable": true,
-                    "color": "#ffff00",
+                    "color": "#00ff77",
                     "frequency": 0.05,
                     "opacity": 1
                 },
                 "lines": {
                     "enable": true,
-                    "color": "#ff0000",
+                    "color": "#ffffff",
                     "frequency": 0.005,
                     "opacity": 1
                 }
