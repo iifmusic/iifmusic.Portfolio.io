@@ -5,7 +5,7 @@ import Header from './components/Header'
 import './App.scss'
 import Particle from './components/Particle'
 import { AboutMe } from './pages/AboutMe'
-import Zoom from 'react-reveal/Zoom'
+import { Fade } from  'react-reveal'
 import { Languages } from './pages/Languages'
 
 
@@ -13,8 +13,10 @@ import { Languages } from './pages/Languages'
 function App() {
     return (
       <>
-        <Particle />    
-        <Navbar />
+        <Particle />  
+        <Fade duration={7000}>  
+          <Navbar />
+        </Fade>
         <Header />
       <div className='second__area'>
       
