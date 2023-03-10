@@ -38,10 +38,15 @@ body {
 nav {
   z-index: 1;
   background: $black;
+  img{
+    width: 3rem;
+    height: 3rem;
+  }
 
 }
 .navbar__logo {
  width:16.25rem; 
+
 }
 
 /** Menu links____________________________________ */
