@@ -1,12 +1,13 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
+import image from '/Users/iif/Code/Portfolio/src/assets/iifBlank.png'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light bg-dark">
+    <nav className="navbar navbar-expand-lg">
       <div className="container">
-  <a className="navbar__logo" href="#">Ivan</a>
+  <a className="navbar__logo" href="#">  <img src={ image } alt= 'iif logo' /> </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
    <FontAwesomeIcon icon={faBars} style={{color: "#ffffff"}} />
   </button>
