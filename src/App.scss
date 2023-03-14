@@ -37,7 +37,9 @@ body {
 
 /** Navbar _________________________________________*/
 nav {
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  z-index: 3;
   background: $black;
   img{
     width: 3rem;
@@ -152,6 +154,10 @@ background: $black;
   width: 100vw;
   z-index: 1;
 } */
+#tsparticles{
+  z-index: 1;
+  margin-top: 10%;
+}
 
 /**about Me_____________________________________________ */
 #about__me {
