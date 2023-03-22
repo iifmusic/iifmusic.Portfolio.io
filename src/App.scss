@@ -95,7 +95,7 @@ background: $black;
   background: url(./assets/girl.jpg) no-repeat center fixed;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -147,7 +147,7 @@ background: $black;
   color: #f9ab00;
   transition: .5s ease-in-out;
 }
-
+/**Particle_______________________________________________*/
 /**.tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
@@ -156,7 +156,10 @@ background: $black;
 } */
 #tsparticles{
   z-index: 1;
-  margin-top: 10%;
+}
+
+#AppParticle{
+  padding-bottom: 1%;
 }
 
 /**about Me_____________________________________________ */
