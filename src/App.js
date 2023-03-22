@@ -13,15 +13,16 @@ import { Languages } from './pages/Languages'
 function App() {
     return (
       <>
-        <Particle />  
+      <div>
         <Fade duration={7000}>  
           <Navbar />
         </Fade>
+          <Particle />
+      </div>
+
         <Header />
       <div className='second__area'>
-      
-          <AboutMe />
-        
+        <AboutMe />
         <Languages />
       </div>
       

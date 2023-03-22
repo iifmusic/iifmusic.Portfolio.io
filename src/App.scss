@@ -37,7 +37,9 @@ body {
 
 /** Navbar _________________________________________*/
 nav {
-  z-index: 1;
+  position: fixed;
+  top: 0;
+  z-index: 3;
   background: $black;
   img{
     width: 3rem;
@@ -93,7 +95,7 @@ background: $black;
   background: url(./assets/girl.jpg) no-repeat center fixed;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -145,13 +147,20 @@ background: $black;
   color: #f9ab00;
   transition: .5s ease-in-out;
 }
-
+/**Particle_______________________________________________*/
 /**.tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
 } */
+#tsparticles{
+  z-index: 1;
+}
+
+#AppParticle{
+  padding-bottom: 1%;
+}
 
 /**about Me_____________________________________________ */
 #about__me {
