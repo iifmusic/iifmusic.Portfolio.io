@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
-$white: #fff;
+$white: #F9F6EF;
 $orange: #f9ab00;
 $red: #ef4035;
-$black: #000000;
+$black: #070707;
 $turquoise: #1fdddd;
 $tester: #1dff00;
 $purple: #4214ad;
@@ -15,6 +15,41 @@ $sky: #1fdddd;
   justify-content: center;
   align-items: center;
 }
+@mixin devStyle{
+  width: 25%;
+  margin: 25px;
+  padding: 15px;
+  border: 3px solid #000;
+  background-color: $red;
+  border-radius: 10px;
+}
+.skills {
+  @include flexCenter();
+  color: $white;
+}
+.languages__container{
+  display: flex;
+    background-color: #1fdddd;
+      img{
+        width: 65px;
+        height: 65px;
+      }
+
+    .front__end{
+     @include devStyle()
+
+    }
+    .styling{
+     @include devStyle()
+    }
+    .back__end{
+    @include devStyle()
+    }
+    .holder{
+      @include devStyle()
+    }
+}
+
 
 body {
   font-family: "Roboto Condensed" sans-serif;
