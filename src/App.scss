@@ -3,15 +3,16 @@
 @mixin devStyle {
   width: 25%;
   margin: 25px;
-  padding: 15px 10px 15px 10px;
-  border: 3px solid $black;
+  padding: 15px;
+  border: 3px solid #000;
   background-color: $red;
+  border-radius: 10px;
 }
 
-$white: #fff;
+$white: #F9F6EF;
 $orange: #f9ab00;
 $red: #ef4035;
-$black: #000000;
+$black: #070707;
 body{
   font-family: "Roboto Condensed" sans-serif;
 }
