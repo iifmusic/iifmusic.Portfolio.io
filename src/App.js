@@ -7,6 +7,7 @@ import Particle from './components/Particle'
 import { AboutMe } from './pages/AboutMe'
 import { Fade } from  'react-reveal'
 import { Languages } from './pages/Languages'
+import { Certification } from './pages/Certification'
 
 
 
@@ -25,9 +26,7 @@ function App() {
         <AboutMe />
         <Languages />
       </div>
-      
-      
-        
+      <Certification />
         
       </>
     )
