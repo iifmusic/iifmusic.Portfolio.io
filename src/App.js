@@ -8,6 +8,7 @@ import { AboutMe } from './pages/AboutMe'
 import { Fade } from  'react-reveal'
 import { Languages } from './pages/Languages'
 import { Certification } from './pages/Certification'
+import { Contact } from './pages/Contact'
 
 
 
@@ -27,7 +28,7 @@ function App() {
         <Languages />
       </div>
       <Certification />
-        
+      <Contact />
       </>
     )
   }
