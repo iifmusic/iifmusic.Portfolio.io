@@ -9,7 +9,7 @@ export const Certification = () => {
           <div>
 
               <img src={ image } alt='Google IT Certificaiton'/>
-              <a href='https://www.credly.com/badges/90891639-516e-4320-bc78-d0e3ae502cac'> Google IT Certification Verification</a>
+              <a href='https://www.credly.com/badges/90891639-516e-4320-bc78-d0e3ae502cac'> Google IT Certificate Verification</a>
           </div>
         </div>
     </>
