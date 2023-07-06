@@ -9,26 +9,28 @@ import { Fade } from  'react-reveal'
 import { Languages } from './pages/Languages'
 import { Certification } from './pages/Certification'
 import { Contact } from './pages/Contact'
+import { Projects } from './pages/Projects'
 
 
 
 function App() {
     return (
       <>
-      <div>
-        <Fade duration={7000}>  
-          <Navbar />
-        </Fade>
-          <Particle />
-      </div>
+        <Navbar />
+        <div>
+          <Fade duration={7000}>
+          </Fade>
+            <Particle />
+        </div>
 
-        <Header />
-      <div className='second__area'>
-        <AboutMe />
-        <Languages />
-      </div>
-      <Certification />
-      <Contact />
+          <Header />
+        <div className='second__area'>
+          <AboutMe />
+          <Languages />
+        </div>
+        <Projects />
+        <Certification />
+        <Contact />
       </>
     )
   }
