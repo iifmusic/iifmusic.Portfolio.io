@@ -400,3 +400,10 @@ background: $black;
     }
   }
 }
+// Footer_____________________________________________
+.footer__back {
+  color: $red;
+  text-decoration: none;
+  text-align: center;
+  @include flexCenter();
+}
