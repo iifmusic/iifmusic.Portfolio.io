@@ -401,9 +401,20 @@ background: $black;
   }
 }
 // Footer_____________________________________________
-.footer__back {
-  color: $red;
-  text-decoration: none;
-  text-align: center;
-  @include flexCenter();
+#footer__container {
+  img {
+    @include flexCenter();
+    align-items: center;
+    width: 75px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .footer__back {
+    color: $red;
+    text-decoration: none;
+    text-align: center;
+    // @include flexCenter();
+  }
 }
+
