@@ -10,6 +10,7 @@ import { Languages } from './pages/Languages'
 import { Certification } from './pages/Certification'
 import { Contact } from './pages/Contact'
 import { Projects } from './pages/Projects'
+import { Footer } from './components/Footer'
 
 
 
@@ -31,6 +32,7 @@ function App() {
         <Projects />
         <Certification />
         <Contact />
+        <Footer />
       </>
     )
   }

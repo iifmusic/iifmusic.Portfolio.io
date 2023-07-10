@@ -3,7 +3,7 @@ import Typed from 'react-typed'
 
 const Header = () => {
   return (
-    <div className='header-wraper'>
+    <div id='top' className='header-wraper'>
       {/* <image src={'src/assets/ivangames.jpg'}/> */}
         <div className='main-info'>
             <h1>Ivan Ortega</h1>
