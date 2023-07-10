@@ -22,15 +22,21 @@ const iconStyle = {
 export const Footer = () => {
   return (
     <div id='footer__container'>
-      <img src={iif} alt="iif"/>
-      <footer className="footer">
-        &copy; 2023 iif. All rights reserved | 
+      <span>
+        <img src={iif} alt="iif"/>
+      </span>
+      <span className='links'>
         {socialMediaLinks.map((link) => (
-        <a href={link.url} key={link.name}>
-        <img src={link.icon} alt={link.name} style={iconStyle} />        </a>
-      ))}
-        <a className='footer__back' href='#home'> Back To top</a>
-      </footer>
+          <a href={link.url} key={link.name}>
+          <img src={link.icon} alt={link.name} style={iconStyle} />        </a>
+        ))}
+      </span>
+      <div className='foot'>
+        <footer className="footer">
+          &copy; 2023 iif All rights reserved |
+          <a className='footer__back' href='#top'> Back To top</a>
+        </footer>
+        </div>
     </div>
   )
 }
