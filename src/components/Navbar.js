@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className={`navbar navbar-expand-lg ${isSticky ? "sticky" : ""}`}>
       <div className="container">
         <a className="navbar__logo" href="#">
-          <img src={image} alt="iif logo" />
+          <img src={image} alt="iif logo" href='#top' />
         </a>
         <button
           className="navbar-toggler"
@@ -51,27 +51,22 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Github
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://hyperfollow.com/iif">
                 Music
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://github.com/iiAnti">
+                Github
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about__me">
+                About Me
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact">
                 contact
               </a>
             </li>
