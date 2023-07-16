@@ -1,10 +1,9 @@
 import React from 'react'
 import Typed from 'react-typed'
 
-const Header = () => {
+export const Header = () => {
   return (
     <div id='top' className='header-wraper'>
-      {/* <image src={'src/assets/ivangames.jpg'}/> */}
         <div className='main-info'>
             <h1>Ivan Ortega</h1>
             <Typed
@@ -14,11 +13,9 @@ const Header = () => {
             backSpeed = {60} 
             loop
             />
-            <a href='#' className='btn-main-offer'>Contact me</a>
+            <a href='#footer__container' className='btn-main-offer'>Follow</a>
         </div>
 
     </div>
   )
 }
-
-export default Header
