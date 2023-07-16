@@ -51,13 +51,8 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#about__me">
-                About Me
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                services
+              <a className="nav-link" href="https://hyperfollow.com/iif">
+                Music
               </a>
             </li>
             <li className="nav-item">
@@ -66,8 +61,8 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="https://hyperfollow.com/iif">
-                Music
+              <a className="nav-link" href="#about__me">
+                About Me
               </a>
             </li>
             <li className="nav-item">
