@@ -9,6 +9,7 @@ $turquoise: #1fdddd;
 $tester: #1dff00;
 $purple: #4214ad;
 $sky: #1fdddd;
+$transparent: rgba(30, 30, 30,0.2);
 
 // ** functions______________________________________
 @mixin flexCenter {
@@ -214,41 +215,38 @@ background: $black;
       display: flex;
       flex-direction: row;
       p {
+        color: $white;
         padding: 20px 50px;
         margin: 1px 50px 1px 50px;
-        background: $tester;
-        text-align: left;
-        border: 1px solid $black;
+        background: $transparent;
+        text-align: justify;
         border-radius: 25px;
         height: 80vh;
           a {
             text-decoration: none;
             color: $red;
           }
-
-        // .about__img {
-        //   // @include flexCenter();
-        //     img {
-        //       width: 1%;
-        //       border: 1px double $black;
-        //       border-radius: 100%;
-        //       margin: 12px;
-        //     }
-          // background: url(./assets/ivan.jpeg);
-          // border: 2px solid $black;
-          // border-radius: 100%;
         }
-        
+        .about__img {
+          width: 225px;
+          height: 225px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-left: 40%;
+          margin-top: 50px;
           img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
             border-radius: 50%;
-            width: 25vw;
           }
+        }
     }
   }
   #who{
     font-size: large;
     font-variant: small-caps;
-    color: $purple;
+    color: $turquoise;
     text-align: center;
   }
 
