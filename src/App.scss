@@ -9,7 +9,7 @@ $turquoise: #1fdddd;
 $tester: #1dff00;
 $purple: #4214ad;
 $sky: #1fdddd;
-$transparent: rgba(73, 73, 73,0.2);
+$transparent: rgba(30, 30, 30,0.2);
 
 // ** functions______________________________________
 @mixin flexCenter {
@@ -219,7 +219,7 @@ background: $black;
         padding: 20px 50px;
         margin: 1px 50px 1px 50px;
         background: $transparent;
-        text-align: left;
+        text-align: justify;
         border-radius: 25px;
         height: 80vh;
           a {
