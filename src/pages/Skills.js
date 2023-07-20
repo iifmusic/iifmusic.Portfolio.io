@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flip, Zoom, Fade } from 'react-reveal';
+import { Fade } from 'react-reveal';
 
 export const Skills = () => {
   return (
@@ -56,16 +56,19 @@ export const Skills = () => {
         <div className='holder'>
           <h3>Extras</h3>
           <Fade delay={1000} duration={2000}>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg" alt="Yarn" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original-wordmark.svg" alt="Yarn" />
           </Fade>
           <Fade delay={1500} duration={2000}>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Git" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="Git" />
           </Fade>
           <Fade delay={2000} duration={2000}>
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" />
           </Fade>
-          <Fade delay={2500} duration={2000}> 
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"  alt='Windows'/>
+          <Fade delay={2500} duration={2000}>
+           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" alt="Apple" />
+          </Fade>
+          <Fade delay={3000} duration={2000}>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"  alt='Windows'/>
           </Fade>
         </div>
       </div>
