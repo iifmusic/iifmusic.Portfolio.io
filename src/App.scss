@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 // Variable colors_______________________________________
 
-$white: #F9F6EF;
-$orange: #f9ab00;
-$red: #ef4035;
 $black: #070707;
-$turquoise: #1fdddd;
-$tester: #1dff00;
+$white: #F9F6EF;
+$red: #ef4035;
+$orange: #f9ab00;
 $purple: #4214ad;
+$blue: #0c34fc;
 $sky: #1fdddd;
+$turquoise: #1fdddd;
+$tester: #00ff11;
+$green: #00ff11;
 $transparent: rgba(30, 30, 30,0.2);
 
 // ** functions______________________________________
@@ -22,7 +24,7 @@ $transparent: rgba(30, 30, 30,0.2);
   margin: 25px;
   padding: 15px;
   border: 3px solid #000;
-  background-color: $red;
+  background-color: $transparent;
   border-radius: 10px;
 }
 
@@ -33,10 +35,22 @@ $transparent: rgba(30, 30, 30,0.2);
 }
 .languages__container{
   display: flex;
-    background-color: #1fdddd;
+    background-color: $black;
+    h3 {
+      @include flexCenter();
+      animation: colorChange 5s infinite;
+    }
+    @keyframes colorChange {
+      0% { color: $green; }
+      25% { color: $blue; }
+      50% { color: $green; }
+      75% { color: $blue; }
+      100% { color: $black; }
+    }
       img{
-        width: 65px;
-        height: 65px;
+        width: 45%;
+        height: auto;
+        padding: 12px;
       }
 
     .front__end{
