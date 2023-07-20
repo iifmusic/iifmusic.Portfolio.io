@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 // Variable colors_______________________________________
 
-$white: #F9F6EF;
-$orange: #f9ab00;
-$red: #ef4035;
 $black: #070707;
-$turquoise: #1fdddd;
-$tester: #1dff00;
+$white: #F9F6EF;
+$red: #ef4035;
+$orange: #f9ab00;
 $purple: #4214ad;
+$blue: #0c34fc;
 $sky: #1fdddd;
+$turquoise: #1fdddd;
+$tester: #00ff11;
+$green: #00ff11;
 $transparent: rgba(30, 30, 30,0.2);
 
 // ** functions______________________________________
@@ -39,11 +41,11 @@ $transparent: rgba(30, 30, 30,0.2);
       animation: colorChange 5s infinite;
     }
     @keyframes colorChange {
-      0% { color: red; }
-      25% { color: blue; }
-      50% { color: green; }
-      75% { color: orange; }
-      100% { color: red; }
+      0% { color: $green; }
+      25% { color: $blue; }
+      50% { color: $green; }
+      75% { color: $blue; }
+      100% { color: $black; }
     }
       img{
         width: 45%;
