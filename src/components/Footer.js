@@ -1,9 +1,9 @@
 import React from 'react'
-import iif from '/Users/iif/Code/Portfolio/src/assets/iifBlank.png'
-import facebook from '/Users/iif/Code/Portfolio/src/assets/facebook.png'
-import tiktok from '/Users/iif/Code/Portfolio/src/assets/tiktok.png'
-import instagram from '/Users/iif/Code/Portfolio/src/assets/instagram.png'
-import twitter from '/Users/iif/Code/Portfolio/src/assets/twitter.png'
+import iif from '/Users/iif/Code/Portfolio/Portfolio/src/assets/iifBlank.png'
+import facebook from '/Users/iif/Code/Portfolio/Portfolio/src/assets/facebook.png'
+import tiktok from '/Users/iif/Code/Portfolio/Portfolio/src/assets/tiktok.png'
+import instagram from '/Users/iif/Code/Portfolio/Portfolio/src/assets/instagram.png'
+import twitter from '/Users/iif/Code/Portfolio/Portfolio/src/assets/twitter.png'
 
 
 const socialMediaLinks = [

@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '/Users/iif/Code/Portfolio/src/assets/certificate.png'
+import image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/certificate.png'
 
 export const Certification = () => {
   return (
