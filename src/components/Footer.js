@@ -3,14 +3,14 @@ import iif from '/Users/iif/Code/Portfolio/Portfolio/src/assets/iifBlank.png'
 import facebook from '/Users/iif/Code/Portfolio/Portfolio/src/assets/facebook.png'
 import tiktok from '/Users/iif/Code/Portfolio/Portfolio/src/assets/tiktok.png'
 import instagram from '/Users/iif/Code/Portfolio/Portfolio/src/assets/instagram.png'
-import twitter from '/Users/iif/Code/Portfolio/Portfolio/src/assets/twitter.png'
+import X from '/Users/iif/Code/Portfolio/Portfolio/src/assets/X.png'
 
 
 const socialMediaLinks = [
   { name: 'TikTok', url: 'https://www.tiktok.com/@iifmusic', icon: tiktok  },
   { name: 'Facebook', url: 'https://www.facebook.com/iif.officialmusic', icon: facebook },
   { name: 'Instagram', url: 'https://www.instagram.com/iif_officialmusic/', icon: instagram },
-  { name: 'Twitter', url: 'https://twitter.com/iif_officialmsc', icon: twitter },
+  { name: 'X', url: 'https://twitter.com/iif_officialmsc', icon: X },
 ];
 
 const iconStyle = {
