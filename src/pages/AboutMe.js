@@ -2,14 +2,13 @@ import React from 'react';
 import image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/cam.JPG';
 import { useEffect, useState } from 'react';
 import { Flip, Zoom, Fade } from 'react-reveal';
+
 export const AboutMe = () => {
-
-
-
   return (
     <div id='about__me'>
       <Zoom duration={2500} top cascade>
-        <h1>About Me</h1>
+        {/* <h1>About Me</h1> */}
+        <br/>
       </Zoom>
       <Fade delay={2000} duration={4000}>
         <div className='about__inner'>

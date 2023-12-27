@@ -249,8 +249,9 @@ nav ul li {
       flex-direction: row;
       p {
         color: $white;
-        padding: 20px 50px;
-        margin: 1px 50px 1px 50px;
+        font-size: 25px;
+        padding: 25px 6rem;
+        margin: 1px 5rem;
         background: $transparent;
         text-align: justify;
         border-radius: 25px;
@@ -277,7 +278,7 @@ nav ul li {
     }
   }
   #who{
-    font-size: large;
+    font-size: 30px;
     font-variant: small-caps;
     color: $turquoise;
     text-align: center;
