@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/iifBlank.png';
+import image from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/iifBlank.png';
 
 const Navbar = () => {
   const [isSticky, setIsSticky] = useState(false);

@@ -1,8 +1,8 @@
 import React from 'react';
-import project1Image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/filler.jpg';
-import project2Image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/filler.jpg';
-import project3Image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/filler.jpg';
-import cat from '/Users/iif/Code/Portfolio/Portfolio/src/assets/cat.png';
+import project1Image from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/filler.jpg';
+import project2Image from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/filler.jpg';
+import project3Image from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/filler.jpg';
+import cat from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/cat.png';
 
 // const cat = () => {
 //   <a href='https://iianti.github.io/'>View</a>
