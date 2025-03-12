@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '/Users/iif/Code/Portfolio/Portfolio/src/assets/cam.JPG';
+import image from '/Users/iif/Code/iifmusic.Portfolio.io/src/assets/cam.JPG';
 import { useEffect, useState } from 'react';
 import { Flip, Zoom, Fade } from 'react-reveal';
 
